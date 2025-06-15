@@ -362,5 +362,17 @@
     "dificuldade": "D",
     "nota": "",
     "replay": "Não"
+  },
+  {
+    "imagem": "Data/Assets/kart.png",
+    "nome": "mario kart",
+    "plataforma": "Switch",
+    "inicio": "07/06/2025",
+    "termino": "14/04/2025",
+    "situacao": "Concluído",
+    "tempo": "20",
+    "dificuldade": "B",
+    "nota": "10",
+    "replay": "Não"
   }
 ]
