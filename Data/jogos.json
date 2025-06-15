@@ -9,5 +9,16 @@
     "dificuldade": "S",
     "nota": "10",
     "imagem": "C:/Users/Zile/Desktop/kart.png"
+  },
+  {
+    "nome": "teste",
+    "plataforma": "Steam (PC)",
+    "inicio": "10/10/10",
+    "termino": "Não concluído",
+    "situacao": "Em andamento",
+    "tempo": "0",
+    "dificuldade": "A",
+    "nota": "1",
+    "imagem": "C:/Users/Zile/Desktop/kart.png"
   }
 ]
