@@ -350,5 +350,17 @@
     "dificuldade": "-",
     "replay": "Não",
     "nota": "-"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/mario%20kart.png",
+    "nome": "Mario kart",
+    "plataforma": "Switch",
+    "inicio": "07/06/2025",
+    "termino": "13/06/2025",
+    "situacao": "Concluído",
+    "tempo": "20",
+    "dificuldade": "B",
+    "nota": "10",
+    "replay": "Não"
   }
 ]
