@@ -211,5 +211,17 @@
     "nota": "",
     "imagem": "C:/Users/Zile/Desktop/kart.png",
     "replay": "Não"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/teste.png",
+    "nome": "teste",
+    "plataforma": "Steam (PC)",
+    "inicio": "1111111",
+    "termino": "-",
+    "situacao": "Concluído",
+    "tempo": "-",
+    "dificuldade": "D",
+    "nota": "-",
+    "replay": "Não"
   }
 ]
