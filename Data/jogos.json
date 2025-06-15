@@ -350,53 +350,5 @@
     "dificuldade": "-",
     "replay": "Não",
     "nota": "-"
-  },
-  {
-    "imagem": "Data/Assets/kart.png",
-    "nome": "teste",
-    "plataforma": "Steam (PC)",
-    "inicio": "121212",
-    "termino": "Não concluído",
-    "situacao": "Concluído",
-    "tempo": "",
-    "dificuldade": "D",
-    "nota": "",
-    "replay": "Não"
-  },
-  {
-    "imagem": "Data/Assets/kart.png",
-    "nome": "mario kart",
-    "plataforma": "Switch",
-    "inicio": "07/06/2025",
-    "termino": "14/04/2025",
-    "situacao": "Concluído",
-    "tempo": "20",
-    "dificuldade": "B",
-    "nota": "10",
-    "replay": "Não"
-  },
-  {
-    "imagem": "Data/Assets/mario kart.png",
-    "nome": "mario kart",
-    "plataforma": "Switch",
-    "inicio": "2323",
-    "termino": "Não concluído",
-    "situacao": "Concluído",
-    "tempo": "",
-    "dificuldade": "D",
-    "nota": "",
-    "replay": "Não"
-  },
-  {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/mario%20kart.png",
-    "nome": "mario kart",
-    "plataforma": "Switch",
-    "inicio": "07/06/20251",
-    "termino": "14/06/2025",
-    "situacao": "Concluído",
-    "tempo": "20",
-    "dificuldade": "A",
-    "nota": "10",
-    "replay": "Não"
   }
 ]
