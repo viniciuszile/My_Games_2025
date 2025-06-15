@@ -20,5 +20,16 @@
     "dificuldade": "A",
     "nota": "1",
     "imagem": "C:/Users/Zile/Desktop/kart.png"
+  },
+  {
+    "nome": "teste",
+    "plataforma": "PC(🏴‍☠️)",
+    "inicio": "10/20/2000",
+    "termino": "Não concluído",
+    "situacao": "Cancelado",
+    "tempo": "",
+    "dificuldade": "B",
+    "nota": "",
+    "imagem": "C:/Users/Zile/Desktop/kart.png"
   }
 ]
