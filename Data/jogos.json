@@ -374,5 +374,17 @@
     "dificuldade": "B",
     "nota": "10",
     "replay": "Não"
+  },
+  {
+    "imagem": "Data/Assets/mario kart.png",
+    "nome": "mario kart",
+    "plataforma": "Switch",
+    "inicio": "2323",
+    "termino": "Não concluído",
+    "situacao": "Concluído",
+    "tempo": "",
+    "dificuldade": "D",
+    "nota": "",
+    "replay": "Não"
   }
 ]
