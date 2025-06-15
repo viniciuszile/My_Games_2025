@@ -223,5 +223,17 @@
     "dificuldade": "D",
     "nota": "-",
     "replay": "Não"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/main/Data/Assets/oimagem.png",
+    "nome": "oimagem",
+    "plataforma": "Steam (PC)",
+    "inicio": "2432323232",
+    "termino": "-",
+    "situacao": "Concluído",
+    "tempo": "-",
+    "dificuldade": "D",
+    "nota": "-",
+    "replay": "Não"
   }
 ]
