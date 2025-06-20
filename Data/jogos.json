@@ -362,5 +362,17 @@
     "dificuldade": "A",
     "nota": "10",
     "replay": "Não"
+  },
+    {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/lies.webp",
+    "nome": "Lies of P: Overture",
+    "plataforma": "PC 🏴‍☠️",
+    "inicio": "20/06/2025",
+    "termino": "Em andamento",
+    "situacao": "Não concluido",
+    "tempo": "Em Andamento",
+    "dificuldade": "-",
+    "nota": "-",
+    "replay": "Não"
   }
 ]
