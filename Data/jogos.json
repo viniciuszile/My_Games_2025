@@ -323,8 +323,8 @@
     "plataforma": "Switch",
     "inicio": "2025-06-11",
     "termino": "27/06/2025",
-    "situacao": "Não Concluído",
-    "tempo": "Em Andamento",
+    "situacao": "Concluido",
+    "tempo": "15+- HRS",
     "dificuldade": "C",
     "replay": "Não",
     "nota": "8"
@@ -370,7 +370,7 @@
     "inicio": "20/06/2025",
     "termino": "28/06/2025",
     "situacao": "Concluido",
-    "tempo": "12",
+    "tempo": "12+- HRS",
     "dificuldade": "B",
     "nota": "10",
     "replay": "Não"
