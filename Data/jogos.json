@@ -322,12 +322,12 @@
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/mario.webp",
     "plataforma": "Switch",
     "inicio": "2025-06-11",
-    "termino": "-",
+    "termino": "27/06/2025",
     "situacao": "Não Concluído",
     "tempo": "Em Andamento",
-    "dificuldade": "-",
+    "dificuldade": "C",
     "replay": "Não",
-    "nota": "-"
+    "nota": "8"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/zelda 2.webp",
@@ -368,11 +368,11 @@
     "nome": "Lies of P: Overture",
     "plataforma": "PC 🏴‍☠️",
     "inicio": "20/06/2025",
-    "termino": "Em andamento",
-    "situacao": "Não concluido",
-    "tempo": "Em Andamento",
-    "dificuldade": "-",
-    "nota": "-",
+    "termino": "28/06/2025",
+    "situacao": "Concluido",
+    "tempo": "12",
+    "dificuldade": "B",
+    "nota": "10",
     "replay": "Não"
   }
 ]
