@@ -374,5 +374,41 @@
     "dificuldade": "B",
     "nota": "10",
     "replay": "Não"
+  },
+    {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/marioword.png",
+    "nome": "Mario World",
+    "plataforma": "SNES",
+    "inicio": "27/06/2025",
+    "termino": "02/07/2025",
+    "situacao": "Concluido",
+    "tempo": "10+- HRS",
+    "dificuldade": "C",
+    "nota": "10",
+    "replay": "Não"
+  },
+    {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/joe.png",
+    "nome": "Joe & Mac 2",
+    "plataforma": "SNES",
+    "inicio": "02/07/20255",
+    "termino": "Não concluido",
+    "situacao": "Em andamento",
+    "tempo": "",
+    "dificuldade": "",
+    "nota": "",
+    "replay": "Não"
+  },
+    {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/aladin.png",
+    "nome": "Aladdin",
+    "plataforma": "SNES",
+    "inicio": "03/07/20255",
+    "termino": "Não concluido",
+    "situacao": "Em andamento",
+    "tempo": "",
+    "dificuldade": "",
+    "nota": "",
+    "replay": "Não"
   }
 ]
