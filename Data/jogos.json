@@ -324,7 +324,7 @@
     "inicio": "2025-06-11",
     "termino": "27/06/2025",
     "situacao": "Concluido",
-    "tempo": "15+- HRS",
+    "tempo": "15 HRS",
     "dificuldade": "C",
     "replay": "Não",
     "nota": "8"
@@ -370,7 +370,7 @@
     "inicio": "20/06/2025",
     "termino": "28/06/2025",
     "situacao": "Concluido",
-    "tempo": "12+- HRS",
+    "tempo": "12 HRS",
     "dificuldade": "B",
     "nota": "10",
     "replay": "Não"
@@ -382,7 +382,7 @@
     "inicio": "27/06/2025",
     "termino": "02/07/2025",
     "situacao": "Concluido",
-    "tempo": "10+- HRS",
+    "tempo": "10 HRS",
     "dificuldade": "C",
     "nota": "10",
     "replay": "Não"
@@ -403,12 +403,12 @@
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/Assets/aladin.png",
     "nome": "Aladdin",
     "plataforma": "SNES",
-    "inicio": "03/07/20255",
-    "termino": "Não concluido",
-    "situacao": "Em andamento",
-    "tempo": "",
-    "dificuldade": "",
-    "nota": "",
+    "inicio": "03/07/2025",
+    "termino": "03/07/2025",
+    "situacao": "Concluido",
+    "tempo": "2 HRS",
+    "dificuldade": "B",
+    "nota": "10",
     "replay": "Não"
   }
 ]
