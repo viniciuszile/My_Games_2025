@@ -186,17 +186,6 @@
     "nota": "9"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/reddead.jpg",
-    "plataforma": "PC",
-    "inicio": "2025-03-25",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "tempo": "Em Andamento",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/residentevil4.jpg",
     "plataforma": "PC",
     "inicio": "2025-03-29",
@@ -409,5 +398,16 @@
     "dificuldade": "B",
     "nota": "10",
     "replay": "Não"
+  },  
+    {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos-Jogos/main/reddead.jpg",
+    "plataforma": "PC",
+    "inicio": "2025-03-25",
+    "termino": "2025-07-05",
+    "situacao": "Concluido",
+    "tempo": "50 HRS",
+    "dificuldade": "C",
+    "replay": "Não",
+    "nota": "10"
   }
 ]
