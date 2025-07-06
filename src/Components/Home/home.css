@@ -106,6 +106,18 @@
   transform: rotateY(180deg);
 }
 
+/* Card com jogo concluído */
+.card.concluido {
+  border: 2px solid #00ff88;
+  box-shadow: 0 0 12px #00ff88;
+}
+
+/* Card com jogo não concluído */
+.card.nao-concluido {
+  border: 2px solid #ff5555;
+  box-shadow: 0 0 12px #ff5555;
+}
+
 /* --- Responsividade --- */
 
 /* Tablets e pequenos laptops */

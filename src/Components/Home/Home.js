@@ -33,6 +33,19 @@ function Home() {
     }));
   }
 
+  // Função para remover acentos
+  function removerAcentos(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
+  // Função para saber se está concluído de forma flexível
+function isConcluido(situacao) {
+  if (!situacao) return false;
+  const normalizado = removerAcentos(situacao).toLowerCase().trim();
+  return normalizado === "concluido";
+}
+
+
   if (loading) return <p style={{ color: "#fff" }}>Carregando...</p>;
   if (erro) return <p style={{ color: "red" }}>{erro}</p>;
 
@@ -41,7 +54,9 @@ function Home() {
       {jogos.map((jogo, index) => (
         <div
           key={index}
-          className={`card ${flipped[index] ? "flipped" : ""}`}
+          className={`card ${flipped[index] ? "flipped" : ""} ${
+            isConcluido(jogo.situacao) ? "concluido" : "nao-concluido"
+          }`}
           onClick={() => toggleFlip(index)}
         >
           <div className="card-front">
