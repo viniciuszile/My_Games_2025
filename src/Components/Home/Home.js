@@ -8,7 +8,6 @@ function Home() {
   const [erro, setErro] = useState(null);
 
   const [filtro, setFiltro] = useState("todos");
-  // ordenacao: null | "nome-asc" | "nome-desc" | "tempo-asc" | "tempo-desc"
   const [ordenacao, setOrdenacao] = useState(null);
   const [menuAberto, setMenuAberto] = useState(false);
   const menuRef = useRef(null);
@@ -25,8 +24,7 @@ function Home() {
         setJogos(data);
         setLoading(false);
       })
-      .catch((err) => {
-        console.error("Erro ao carregar JSON:", err);
+      .catch(() => {
         setErro("Falha ao carregar os jogos.");
         setLoading(false);
       });
@@ -50,9 +48,12 @@ function Home() {
   }
 
   function extrairHoras(jogo) {
-    const horas = parseInt(jogo["Horas De Jogo"], 10);
-    if (isNaN(horas)) return 0; // jogos sem horas = 0
-    return horas;
+    const valor = jogo["Horas De Jogo"]?.trim() || "";
+    const num = parseInt(valor, 10);
+    if (!isNaN(num)) {
+      return num;
+    }
+    return 0;
   }
 
   function ordenarPorNome(a, b) {
@@ -67,7 +68,6 @@ function Home() {
     return extrairHoras(a) - extrairHoras(b);
   }
 
-  // Alterna a ordenação para nome (asc/desc)
   function toggleOrdenacaoNome() {
     if (ordenacao === "nome-asc") {
       setOrdenacao("nome-desc");
@@ -76,7 +76,6 @@ function Home() {
     }
   }
 
-  // Alterna a ordenação para tempo (asc/desc)
   function toggleOrdenacaoTempo() {
     if (ordenacao === "tempo-asc") {
       setOrdenacao("tempo-desc");
@@ -85,14 +84,12 @@ function Home() {
     }
   }
 
-  // Primeiro filtra
   let jogosFiltrados = jogos.filter((jogo) => {
     if (filtro === "concluidos") return isConcluido(jogo.situacao);
     if (filtro === "nao-concluidos") return !isConcluido(jogo.situacao);
     return true;
   });
 
-  // Depois ordena de acordo com o estado ordenacao
   if (ordenacao === "nome-asc") {
     jogosFiltrados = [...jogosFiltrados].sort(ordenarPorNome);
   } else if (ordenacao === "nome-desc") {
@@ -103,7 +100,6 @@ function Home() {
     jogosFiltrados = [...jogosFiltrados].sort((a, b) => ordenarPorTempo(b, a));
   }
 
-  // Fecha menu ao clicar fora
   useEffect(() => {
     function handleClickOutside(e) {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -150,15 +146,30 @@ function Home() {
             className={ordenacao === "nome-asc" ? "ativo" : ""}
             onClick={toggleOrdenacaoNome}
           >
-            Ordem alfabética {ordenacao === "nome-asc" ? "(A → Z)" : ordenacao === "nome-desc" ? "(Z → A)" : ""}
+            Ordem alfabética{" "}
+            {ordenacao === "nome-asc"
+              ? "(A → Z)"
+              : ordenacao === "nome-desc"
+              ? "(Z → A)"
+              : ""}
           </button>
           <button
             className={ordenacao === "tempo-asc" ? "ativo" : ""}
             onClick={toggleOrdenacaoTempo}
           >
-            Tempo de jogo {ordenacao === "tempo-asc" ? "(Menor → Maior)" : ordenacao === "tempo-desc" ? "(Maior → Menor)" : ""}
+            Tempo de jogo{" "}
+            {ordenacao === "tempo-asc"
+              ? "(Menor → Maior)"
+              : ordenacao === "tempo-desc"
+              ? "(Maior → Menor)"
+              : ""}
           </button>
           <button onClick={() => setOrdenacao(null)}>Limpar ordenação</button>
+
+          {/* Botão para navegar até a Wishlist */}
+          <button onClick={() => window.open("https://zile-wishlist-2025.netlify.app/", "_blank")}>
+            🎁 Ir para Wishlist
+          </button>
         </div>
       )}
 
@@ -176,13 +187,27 @@ function Home() {
               <span className="plataforma">{jogo.plataforma}</span>
             </div>
             <div className="card-back">
-              <p><strong>Nome:</strong> {jogo.nome}</p>
-              <p><strong>Início:</strong> {jogo.inicio}</p>
-              <p><strong>Término:</strong> {jogo.termino}</p>
-              <p><strong>Situação:</strong> {jogo.situacao}</p>
-              <p><strong>Horas De Jogo:</strong> {jogo["Horas De Jogo"] || "Em andamento"}</p>
-              <p><strong>Dificuldade:</strong> {jogo.dificuldade}</p>
-              <p><strong>Nota:</strong> {jogo.nota}</p>
+              <p>
+                <strong>Nome:</strong> {jogo.nome}
+              </p>
+              <p>
+                <strong>Início:</strong> {jogo.inicio || "-"}
+              </p>
+              <p>
+                <strong>Término:</strong> {jogo.termino || "-"}
+              </p>
+              <p>
+                <strong>Situação:</strong> {jogo.situacao || "-"}
+              </p>
+              <p>
+                <strong>Horas De Jogo:</strong> {extrairHoras(jogo)}
+              </p>
+              <p>
+                <strong>Dificuldade:</strong> {jogo.dificuldade || "-"}
+              </p>
+              <p>
+                <strong>Nota:</strong> {jogo.nota || "-"}
+              </p>
             </div>
           </div>
         ))}
