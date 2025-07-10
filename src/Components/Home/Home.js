@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import "./home.css";
 
 function Home() {
+  const navigate = useNavigate();
   const [jogos, setJogos] = useState([]);
   const [flipped, setFlipped] = useState({});
   const [loading, setLoading] = useState(true);
@@ -111,11 +113,14 @@ function Home() {
   }, []);
 
   if (loading) return <p style={{ color: "#fff" }}>Carregando...</p>;
-  if (erro) return <p style={{ color: "red" }}>{erro}</p>;
+  if (erro) return <p style={{ color: "red" }}>{erro}</p> ;
 
   return (
     <>
-      <button className="filtro-toggle" onClick={() => setMenuAberto(!menuAberto)}>
+      <button
+        className="filtro-toggle"
+        onClick={() => setMenuAberto(!menuAberto)}
+      >
         🎮 Filtros
       </button>
 
@@ -167,7 +172,7 @@ function Home() {
           <button onClick={() => setOrdenacao(null)}>Limpar ordenação</button>
 
           {/* Botão para navegar até a Wishlist */}
-          <button onClick={() => window.open("https://zile-wishlist-2025.netlify.app/", "_blank")}>
+          <button onClick={() => navigate("/wishlist")}>
             🎁 Ir para Wishlist
           </button>
         </div>
@@ -183,7 +188,10 @@ function Home() {
             onClick={() => toggleFlip(index)}
           >
             <div className="card-front">
-              <img src={jogo.imagem} alt={`Capa do jogo ${jogo.nome || "sem nome"}`} />
+              <img
+                src={jogo.imagem}
+                alt={`Capa do jogo ${jogo.nome || "sem nome"}`}
+              />
               <span className="plataforma">{jogo.plataforma}</span>
             </div>
             <div className="card-back">
