@@ -443,6 +443,18 @@
     "nota": "10",
     "replay": "Não"
   },
+    {
+    "imagem": https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Clair_Obscur_Expedition_33.png",
+    "nome": "Clair Obscur: Expedition 33",
+    "plataforma": "PC - Gamepass",
+    "inicio": "09/07/2025",
+    "termino": "-",
+    "situacao": "Não Concluído",
+    "Horas De Jogo": "Em Andamento",
+    "dificuldade": "-",
+    "nota": "-",
+    "replay": "Não"
+  },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/MULLET_MADJACK.png",
     "nome": "MULLET MADJACK",
@@ -455,4 +467,5 @@
     "nota": "-",
     "replay": "Não"
   }
+
 ]
