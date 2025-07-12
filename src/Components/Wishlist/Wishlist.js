@@ -17,7 +17,7 @@ function Wishlist() {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/wish.json"
+      "https://raw.githubusercontent.com/viniciuszile/My_Games_2025/refs/heads/main/Data/wish.json"
     )
       .then((res) => {
         if (!res.ok) throw new Error("Erro ao buscar os dados");
