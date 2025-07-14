@@ -105,6 +105,13 @@
     "plataforma": "Steam"
   },
   {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Clair_Obscur_Expedition_33.png",
+    "nome": "Clair Obscur: Expedition 33",
+    "comprado": "não",
+    "prioridade": "alta",
+    "plataforma": "Game Pass / Steam"
+  },
+  {
     "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Blue_Prince.png",
     "nome": "Blue Prince",
     "comprado": "não",
@@ -117,6 +124,13 @@
     "comprado": "não",
     "prioridade": "baixa",
     "plataforma": "Steam"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/MULLET_MADJACK.png",
+    "nome": "MULLET MADJACK",
+    "comprado": "não",
+    "prioridade": "baixa",
+    "plataforma": "Steam / Game Pass"
   },
   {
     "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/OneShot.png",
@@ -229,81 +243,5 @@
     "comprado": "não",
     "prioridade": "baixa",
     "plataforma": "Steam / Game Pass"
-  },{
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/super_bomberman.png",
-    "nome": "Super Bomberman",
-    "comprado": "Emulador",
-    "prioridade": "Alta",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/megaman.png",
-    "nome": "Mega Man X",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Donkey1.png",
-    "nome": "Donkey Kong Country",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Donkey2.png",
-    "nome": "Donkey Kong Country 2",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Donkey3.png",
-    "nome": "Donkey Kong Country 3",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/yoshi.png",
-    "nome": "Super Mario World 2: Yoshi's Island",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/metroid.png",
-    "nome": "Super Metroid",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/zelda5.png",
-    "nome": "The Legend of Zelda: A Link to the Past",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/Kirby.png",
-    "nome": "Kirby Super Star",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/mario3.png",
-    "nome": "Super Mario Bros. 3",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Wishlist/refs/heads/main/Data/Assets/bomberman.png",
-    "nome": "Super Bomberman 5",
-    "comprado": "Emulador",
-    "prioridade": "Baixa",
-    "plataforma": "Snes"
   }
 ]

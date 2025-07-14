@@ -8,7 +8,6 @@ function Home() {
   const [flipped, setFlipped] = useState({});
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState(null);
-
   const [filtro, setFiltro] = useState("todos");
   const [ordenacao, setOrdenacao] = useState(null);
   const [menuAberto, setMenuAberto] = useState(false);
@@ -113,10 +112,18 @@ function Home() {
   }, []);
 
   if (loading) return <p style={{ color: "#fff" }}>Carregando...</p>;
-  if (erro) return <p style={{ color: "red" }}>{erro}</p> ;
+  if (erro) return <p style={{ color: "red" }}>{erro}</p>;
+
+  const totalConcluidos = jogos.filter((j) => isConcluido(j.situacao)).length;
+  const totalIniciados = jogos.filter((j) => j.inicio && j.inicio !== "-").length;
 
   return (
     <>
+      <header className="status-header">
+        <div>🎯 <strong>Zerados:</strong> {totalConcluidos}</div>
+        <div>⏳ <strong>Iniciados:</strong> {totalIniciados}</div>
+      </header>
+
       <button
         className="filtro-toggle"
         onClick={() => setMenuAberto(!menuAberto)}
@@ -171,7 +178,6 @@ function Home() {
           </button>
           <button onClick={() => setOrdenacao(null)}>Limpar ordenação</button>
 
-          {/* Botão para navegar até a Wishlist */}
           <button onClick={() => navigate("/wishlist")}>
             🎁 Ir para Wishlist
           </button>
@@ -195,27 +201,13 @@ function Home() {
               <span className="plataforma">{jogo.plataforma}</span>
             </div>
             <div className="card-back">
-              <p>
-                <strong>Nome:</strong> {jogo.nome}
-              </p>
-              <p>
-                <strong>Início:</strong> {jogo.inicio || "-"}
-              </p>
-              <p>
-                <strong>Término:</strong> {jogo.termino || "-"}
-              </p>
-              <p>
-                <strong>Situação:</strong> {jogo.situacao || "-"}
-              </p>
-              <p>
-                <strong>Horas De Jogo:</strong> {extrairHoras(jogo)}
-              </p>
-              <p>
-                <strong>Dificuldade:</strong> {jogo.dificuldade || "-"}
-              </p>
-              <p>
-                <strong>Nota:</strong> {jogo.nota || "-"}
-              </p>
+              <p><strong>Nome:</strong> {jogo.nome}</p>
+              <p><strong>Início:</strong> {jogo.inicio || "-"}</p>
+              <p><strong>Término:</strong> {jogo.termino || "-"}</p>
+              <p><strong>Situação:</strong> {jogo.situacao || "-"}</p>
+              <p><strong>Horas De Jogo:</strong> {extrairHoras(jogo)}</p>
+              <p><strong>Dificuldade:</strong> {jogo.dificuldade || "-"}</p>
+              <p><strong>Nota:</strong> {jogo.nota || "-"}</p>
             </div>
           </div>
         ))}

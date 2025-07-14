@@ -1,3 +1,33 @@
+/* ----------------------------- */
+/* 🎯 STATUS HEADER             */
+/* ----------------------------- */
+
+.status-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1c1c24;
+  color: #c9c9ff;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  z-index: 1000;
+  box-shadow: 0 0 10px #000;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container_card {
+  padding-top: 80px; /* espaço abaixo do header */
+}
+
+/* ----------------------------- */
+/* 🎮 BOTÃO E MENU DE FILTRO   */
+/* ----------------------------- */
+
 .filtro-toggle {
   position: fixed;
   bottom: 20px;
@@ -55,6 +85,10 @@
   color: #121214;
 }
 
+/* ----------------------------- */
+/* 🧊 ANIMAÇÕES                 */
+/* ----------------------------- */
+
 @keyframes slide-up {
   from {
     opacity: 0;
@@ -66,20 +100,25 @@
   }
 }
 
+/* ----------------------------- */
+/* 🧱 CONTAINER DE CARDS        */
+/* ----------------------------- */
 
-/* Container que agrupa todos os cards */
 .container_card {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   padding: 40px;
-  background-color: #121214; /* fundo dark geral */
+  background-color: #121214;
   min-height: 100vh;
-  perspective: 1200px; /* perspectiva para efeito 3D */
+  perspective: 1200px;
 }
 
-/* Estilo base do card */
+/* ----------------------------- */
+/* 🃏 CARD BASE                 */
+/* ----------------------------- */
+
 .card {
   width: 280px;
   height: 410px;
@@ -93,6 +132,7 @@
 }
 
 /* Frente e verso do card */
+
 .card-front,
 .card-back {
   width: 100%;
@@ -110,6 +150,7 @@
 }
 
 /* Frente do card */
+
 .card-front {
   background: linear-gradient(145deg, #1f1f23, #29292f);
   color: #fff;
@@ -123,11 +164,11 @@
   width: 100%;
   height: 320px;
   object-fit: cover;
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* Plataforma no bottom centralizado */
+/* Plataforma (rodapé da imagem) */
+
 .plataforma {
   position: absolute;
   bottom: 12px;
@@ -148,6 +189,7 @@
 }
 
 /* Verso do card */
+
 .card-back {
   background: linear-gradient(145deg, #29292f, #1f1f23);
   color: #ddd;
@@ -169,24 +211,25 @@
   color: #8faaff;
 }
 
-/* Flip ativado */
+/* Estados */
+
 .card.flipped {
   transform: rotateY(180deg);
 }
 
-/* Card com jogo concluído */
 .card.concluido {
   border: 2px solid #00ff88;
   box-shadow: 0 0 12px #00ff88;
 }
 
-/* Card com jogo não concluído */
 .card.nao-concluido {
   border: 2px solid #ff5555;
   box-shadow: 0 0 12px #ff5555;
 }
 
-/* --- Responsividade --- */
+/* ----------------------------- */
+/* 📱 RESPONSIVIDADE            */
+/* ----------------------------- */
 
 /* Tablets e pequenos laptops */
 @media (max-width: 768px) {
@@ -213,6 +256,13 @@
   .card-back {
     font-size: 0.85rem;
   }
+
+  .status-header {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.95rem;
+  }
 }
 
 /* Mobile */
@@ -225,7 +275,7 @@
   .card {
     width: 100%;
     max-width: 280px;
-    height: auto; /* para ajustar a altura automática */
+    height: auto;
     aspect-ratio: 280 / 380;
   }
 
@@ -244,5 +294,11 @@
   .card-back {
     font-size: 0.85rem;
     padding-top: 20px;
+  }
+
+  .status-header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 16px;
   }
 }
