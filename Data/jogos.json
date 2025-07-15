@@ -454,5 +454,17 @@
     "dificuldade": "A",
     "nota": "10",
     "replay": "Não"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/yoshi.png",
+    "nome": "Super Mario World 2: Yoshi's Island",
+    "plataforma": "SNES",
+    "inicio": "14/07/2025",
+    "termino": "-",
+    "situacao": "Não Concluído",
+    "Horas De Jogo": "Em Andamento",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
   }
 ]
