@@ -229,6 +229,20 @@
     "comprado": "não",
     "prioridade": "baixa",
     "plataforma": "Steam"
+  },  
+  {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/jumpking.jpg",
+    "nome": "Jump King",
+    "comprado": "Sim",
+    "prioridade": "baixa",
+    "plataforma": "Steam"
+  },  
+  {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/zelda 2.webp",
+    "nome": "Zelda Echoes Wisdom",
+    "comprado": "Sim",
+    "prioridade": "baixa",
+    "plataforma": "Switch"
   },
   {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Dead_Space_Remake.png",
