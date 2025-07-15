@@ -15,7 +15,7 @@ function Home() {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/viniciuszile/Jogos-Main/refs/heads/main/Data/jogos.json"
+      "https://raw.githubusercontent.com/viniciuszile/My_Games_2025/refs/heads/main/Data/jogos.json"
     )
       .then((res) => {
         if (!res.ok) throw new Error("Erro ao buscar os dados");
