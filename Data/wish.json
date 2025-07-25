@@ -14,6 +14,13 @@
     "plataforma": "Steam"
   },
   {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/castelvania.webp",
+    "nome": "Castlevania Symphony Of The Night",
+    "comprado": "sim",
+    "prioridade": "baixa",
+    "plataforma": "PS1"
+  },
+  {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Hades_II.png",
     "nome": "Hades II",
     "comprado": "sim",
