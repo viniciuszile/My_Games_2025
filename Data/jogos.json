@@ -300,18 +300,6 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/castelvania.webp",
-    "nome": "Castlevania Symphony Of The Night",
-    "plataforma": "PS1 (Emulador)",
-    "inicio": "12/06/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/tlou.webp",
     "nome": "The Last Of Us 2",
     "plataforma": "PC - Steam(🏴‍☠️)",
@@ -436,12 +424,12 @@
     "nome": "Clair Obscur: Expedition 33",
     "plataforma": "PC - Gamepass",
     "inicio": "12/07/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
+    "termino": "25/07/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "50",
+    "dificuldade": "B",
     "replay": "Não",
-    "nota": "-"
+    "nota": "S+ Goty"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/yoshi.png",
