@@ -200,15 +200,17 @@ function Home() {
               />
               <span className="plataforma">{jogo.plataforma}</span>
             </div>
-            <div className="card-back">
-              <p><strong>Nome:</strong> {jogo.nome}</p>
-              <p><strong>Início:</strong> {jogo.inicio || "-"}</p>
-              <p><strong>Término:</strong> {jogo.termino || "-"}</p>
-              <p><strong>Situação:</strong> {jogo.situacao || "-"}</p>
-              <p><strong>Horas De Jogo:</strong> {extrairHoras(jogo)}</p>
-              <p><strong>Dificuldade:</strong> {jogo.dificuldade || "-"}</p>
-              <p><strong>Nota:</strong> {jogo.nota || "-"}</p>
-            </div>
+                <div className="card-back">
+                <p><strong>Nome:</strong> {jogo.nome}</p>
+                <p><strong>Início:</strong> {jogo.inicio || "-"}</p>
+                <p><strong>Término:</strong> {jogo.termino || "-"}</p>
+                <p><strong>Situação:</strong> {jogo.situacao || "-"}</p>
+                <p><strong>Horas De Jogo:</strong> {extrairHoras(jogo)}</p>
+                <p><strong>Dificuldade:</strong> {jogo.dificuldade || "-"}</p>
+                <p><strong>Replay:</strong> {jogo.replay || "-"}</p> {/* Linha adicionada */}
+                <p><strong>Nota:</strong> {jogo.nota || "-"}</p>
+                </div>
+
           </div>
         ))}
       </div>
