@@ -442,5 +442,29 @@
     "dificuldade": "-",
     "replay": "Não",
     "nota": "-"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/ninja.png",
+    "nome": "Ninja Gaiden 2 Black",
+    "plataforma": "PC - Gamepass",
+    "inicio": "25/07/2025",
+    "termino": "-",
+    "situacao": "Não Concluído",
+    "Horas De Jogo": "Em Andamento",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/dead.png",
+    "nome": "Dead Cells",
+    "plataforma": "PC - Gamepass",
+    "inicio": "26/07/2025",
+    "termino": "-",
+    "situacao": "Não Concluído",
+    "Horas De Jogo": "Em Andamento",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
   }
 ]
