@@ -250,5 +250,19 @@
     "comprado": "não",
     "prioridade": "baixa",
     "plataforma": "Steam / Game Pass"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/final1.png",
+    "nome": "Final Fantasy VII Remake",
+    "comprado": "não",
+    "prioridade": "baixa",
+    "plataforma": "Steam"
+  },
+  {
+    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/final2.png",
+    "nome": "Final Fantasy VII Rebirth",
+    "comprado": "não",
+    "prioridade": "baixa",
+    "plataforma": "Steam"
   }
 ]
