@@ -304,12 +304,12 @@
     "nome": "The Last Of Us 2",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "23/05/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
+    "termino": "04/08/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "20",
+    "dificuldade": "B",
     "replay": "Sim",
-    "nota": "-"
+    "nota": "10"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/mario.webp",
@@ -468,3 +468,4 @@
     "nota": "-"
   }
 ]
+
