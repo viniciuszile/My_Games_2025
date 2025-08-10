@@ -448,12 +448,12 @@
     "nome": "Ninja Gaiden 2 Black",
     "plataforma": "PC - Gamepass",
     "inicio": "25/07/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
+    "termino": "10/08/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "9",
+    "dificuldade": "B",
     "replay": "Não",
-    "nota": "-"
+    "nota": "6"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/dead.png",
@@ -468,4 +468,5 @@
     "nota": "-"
   }
 ]
+
 
