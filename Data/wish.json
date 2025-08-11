@@ -28,13 +28,6 @@
     "plataforma": "Steam"
   },
   {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Little_Nightmares_II.png",
-    "nome": "Little Nightmares II",
-    "comprado": "não",
-    "prioridade": "média",
-    "plataforma": "Game Pass / Steam"
-  },
-  {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Resident_Evil_Revelations_2.png",
     "nome": "Resident Evil: Revelations 2",
     "comprado": "sim",
@@ -266,3 +259,4 @@
     "plataforma": "Steam"
   }
 ]
+
