@@ -474,7 +474,7 @@
     "inicio": "10/08/2025",
     "termino": "-",
     "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
+    "Horas De Jogo": "Não Concluído",
     "dificuldade": "-",
     "replay": "Não",
     "nota": "-"
@@ -490,8 +490,21 @@
     "dificuldade": "C",
     "replay": "Não",
     "nota": "9"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/re0.png",
+    "nome": "Resident Evil Zero: HD Remaster",
+    "plataforma": "PC - Steam",
+    "inicio": "13/08/2025",
+    "termino": "-",
+    "situacao": "Em andamento",
+    "Horas De Jogo": "-",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
   }
 ]
+
 
 
 
