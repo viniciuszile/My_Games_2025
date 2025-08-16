@@ -460,12 +460,12 @@
     "nome": "Dead Cells",
     "plataforma": "PC - Gamepass",
     "inicio": "26/07/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
+    "termino": "15/08/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "25",
+    "dificuldade": "B",
     "replay": "Não",
-    "nota": "-"
+    "nota": "8"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Little_Nightmares_II.png",
@@ -504,6 +504,7 @@
     "nota": "-"
   }
 ]
+
 
 
 
