@@ -429,7 +429,7 @@
     "Horas De Jogo": "71",
     "dificuldade": "B",
     "replay": "Não",
-    "nota": "S+ Goty"
+    "nota": "10"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/yoshi.png",
@@ -520,6 +520,18 @@
     "nome": "Hollow Knight: Silksong",
     "plataforma": "PC - Steam",
     "inicio": "04/09/2025",
+    "termino": "12/09/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "50",
+    "dificuldade": "A",
+    "replay": "Não",
+    "nota": "10 - GOTY"
+  },
+  {
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/human.png",
+    "nome": "No i'm not a human",
+    "plataforma": "PC - Steam",
+    "inicio": "21/09/2025",
     "termino": "-",
     "situacao": "Em andamento",
     "Horas De Jogo": "-",
@@ -528,6 +540,7 @@
     "nota": "-"
   }
 ]
+
 
 
 
