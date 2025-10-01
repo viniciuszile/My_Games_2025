@@ -468,18 +468,6 @@
     "nota": "8"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Little_Nightmares_II.png",
-    "nome": "Little Nightmares 2",
-    "plataforma": "PC - Gamepass",
-    "inicio": "10/08/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Não Concluído",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/plague.png",
     "nome": "A Plague Tale: Innocence",
     "plataforma": "PC - EPIC Games",
@@ -564,6 +552,7 @@
     "nota": "-"
   }
 ]
+
 
 
 
