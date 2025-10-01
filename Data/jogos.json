@@ -504,18 +504,6 @@
     "nota": "-"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/odyssey.png",
-    "nome": "Assassin's Creed Odyssey",
-    "plataforma": "PC - Gamepass",
-    "inicio": "20/08/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/silk.png",
     "nome": "Hollow Knight: Silksong",
     "plataforma": "PC - Steam",
@@ -564,18 +552,6 @@
     "nota": "-"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/farcry.png",
-    "nome": "Far Cry 5",
-    "plataforma": "PC - Gamepass",
-    "inicio": "23/09/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hades.png",
     "nome": "Hades 2",
     "plataforma": "PC - Steam",
@@ -588,6 +564,7 @@
     "nota": "-"
   }
 ]
+
 
 
 
