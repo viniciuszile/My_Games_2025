@@ -25,7 +25,8 @@ function Home() {
         setJogos(data);
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err) => { // Captura o erro para log ou mensagem mais específica
+        console.error("Erro ao carregar os jogos:", err);
         setErro("Falha ao carregar os jogos.");
         setLoading(false);
       });
@@ -39,22 +40,33 @@ function Home() {
   }
 
   function removerAcentos(str) {
+    // Verifica se é uma string antes de normalizar
+    if (typeof str !== 'string') return '';
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 
   function isConcluido(situacao) {
     if (!situacao) return false;
     const normalizado = removerAcentos(situacao).toLowerCase().trim();
-    return normalizado === "concluido";
+    // Use o valor exato do seu arquivo de dados. Pelo print, é "Concluído".
+    // A função já remove acentos, então "concluido" é a chave certa.
+    return normalizado === "concluido"; 
   }
 
   function extrairHoras(jogo) {
     const valor = jogo["Horas De Jogo"]?.trim() || "";
-    const num = parseInt(valor, 10);
-    if (!isNaN(num)) {
-      return num;
-    }
-    return 0;
+    // Garantir que a extração é robusta
+    const match = valor.match(/\d+/); 
+    const num = match ? parseInt(match[0], 10) : 0;
+    
+    // Seu código original:
+    // const num = parseInt(valor, 10);
+    // if (!isNaN(num)) {
+    //   return num;
+    // }
+    // return 0;
+    
+    return num; // Se o valor for "1 hora", retorna 1. Se for "20", retorna 20.
   }
 
   function ordenarPorNome(a, b) {
@@ -66,6 +78,7 @@ function Home() {
   }
 
   function ordenarPorTempo(a, b) {
+    // Usa a função extrairHoras
     return extrairHoras(a) - extrairHoras(b);
   }
 
@@ -91,16 +104,22 @@ function Home() {
     return true;
   });
 
-  if (ordenacao === "nome-asc") {
-    jogosFiltrados = [...jogosFiltrados].sort(ordenarPorNome);
-  } else if (ordenacao === "nome-desc") {
-    jogosFiltrados = [...jogosFiltrados].sort((a, b) => ordenarPorNome(b, a));
-  } else if (ordenacao === "tempo-asc") {
-    jogosFiltrados = [...jogosFiltrados].sort(ordenarPorTempo);
-  } else if (ordenacao === "tempo-desc") {
-    jogosFiltrados = [...jogosFiltrados].sort((a, b) => ordenarPorTempo(b, a));
-  }
+  if (ordenacao) {
+    // Cria uma cópia para ordenar, o que é uma boa prática
+    jogosFiltrados = [...jogosFiltrados]; 
 
+    if (ordenacao === "nome-asc") {
+      jogosFiltrados.sort(ordenarPorNome);
+    } else if (ordenacao === "nome-desc") {
+      jogosFiltrados.sort((a, b) => ordenarPorNome(b, a));
+    } else if (ordenacao === "tempo-asc") {
+      jogosFiltrados.sort(ordenarPorTempo);
+    } else if (ordenacao === "tempo-desc") {
+      jogosFiltrados.sort((a, b) => ordenarPorTempo(b, a));
+    }
+  }
+  
+  // Hook para fechar o menu ao clicar fora
   useEffect(() => {
     function handleClickOutside(e) {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -115,7 +134,8 @@ function Home() {
   if (erro) return <p style={{ color: "red" }}>{erro}</p>;
 
   const totalConcluidos = jogos.filter((j) => isConcluido(j.situacao)).length;
-  const totalIniciados = jogos.filter((j) => j.inicio && j.inicio !== "-").length;
+  // Use a mesma verificação do extrairHoras para um total de iniciados mais robusto
+  const totalIniciados = jogos.filter((j) => extrairHoras(j) > 0 || j.inicio && j.inicio !== "-").length;
 
   return (
     <>
@@ -127,12 +147,14 @@ function Home() {
       <button
         className="filtro-toggle"
         onClick={() => setMenuAberto(!menuAberto)}
+        aria-expanded={menuAberto} // Melhoria de Acessibilidade
+        aria-controls="menu-filtros" // Melhoria de Acessibilidade
       >
         🎮 Filtros
       </button>
 
       {menuAberto && (
-        <div className="menu-flutuante" ref={menuRef}>
+        <div className="menu-flutuante" ref={menuRef} id="menu-filtros">
           <h4>Filtrar por:</h4>
           <button
             className={filtro === "todos" ? "ativo" : ""}
@@ -155,7 +177,7 @@ function Home() {
 
           <h4>Ordenar por:</h4>
           <button
-            className={ordenacao === "nome-asc" ? "ativo" : ""}
+            className={ordenacao === "nome-asc" || ordenacao === "nome-desc" ? "ativo" : ""}
             onClick={toggleOrdenacaoNome}
           >
             Ordem alfabética{" "}
@@ -166,7 +188,7 @@ function Home() {
               : ""}
           </button>
           <button
-            className={ordenacao === "tempo-asc" ? "ativo" : ""}
+            className={ordenacao === "tempo-asc" || ordenacao === "tempo-desc" ? "ativo" : ""}
             onClick={toggleOrdenacaoTempo}
           >
             Tempo de jogo{" "}
@@ -188,29 +210,38 @@ function Home() {
         {jogosFiltrados.map((jogo, index) => (
           <div
             key={index}
+            // A CORREÇÃO ESTÁ AQUI: USAR CRASE (`) PARA TEMPLATE LITERALS
             className={`card ${flipped[index] ? "flipped" : ""} ${
               isConcluido(jogo.situacao) ? "concluido" : "nao-concluido"
             }`}
             onClick={() => toggleFlip(index)}
+            // Melhoria de Acessibilidade: permite focar e usar Enter/Espaço para virar
+            tabIndex="0" 
+            role="button"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                toggleFlip(index);
+              }
+            }}
           >
             <div className="card-front">
               <img
                 src={jogo.imagem}
                 alt={`Capa do jogo ${jogo.nome || "sem nome"}`}
               />
-              <span className="plataforma">{jogo.plataforma}</span>
+              {/* <span className="plataforma">{jogo.plataforma}</span> */}
             </div>
-                <div className="card-back">
-                <p><strong>Nome:</strong> {jogo.nome}</p>
+              <div className="card-back">
+                {/* Opcional: usar h5 ou outro elemento para o nome para semântica */}
+                <p><strong>Plataforma:</strong> {jogo.plataforma || "-"}</p>
                 <p><strong>Início:</strong> {jogo.inicio || "-"}</p>
                 <p><strong>Término:</strong> {jogo.termino || "-"}</p>
                 <p><strong>Situação:</strong> {jogo.situacao || "-"}</p>
-                <p><strong>Horas De Jogo:</strong> {extrairHoras(jogo)}</p>
+                <p><strong>Horas De Jogo:</strong> {extrairHoras(jogo) || "-"} {extrairHoras(jogo) > 0 ? "h" : ""}</p>
                 <p><strong>Dificuldade:</strong> {jogo.dificuldade || "-"}</p>
-                <p><strong>Replay:</strong> {jogo.replay || "-"}</p> {/* Linha adicionada */}
+                <p><strong>Replay:</strong> {jogo.replay || "-"}</p>
                 <p><strong>Nota:</strong> {jogo.nota || "-"}</p>
-                </div>
-
+              </div>
           </div>
         ))}
       </div>
