@@ -189,7 +189,7 @@
     "Horas De Jogo": "10",
     "dificuldade": "A",
     "replay": "Não",
-    "nota": "9"
+    "nota": "7"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/residentevil4.jpg",
@@ -532,12 +532,12 @@
     "nome": "Hotline Miami 2: Wrong Number",
     "plataforma": "PC - Steam",
     "inicio": "20/09/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
+    "termino": "07/10/2025",
+    "situacao": "Concluído",
+    "Horas De Jogo": "5",
+    "dificuldade": "A",
     "replay": "Não",
-    "nota": "-"
+    "nota": "6"
   },
   {
     "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hades.png",
@@ -576,6 +576,7 @@
     "nota": "-"
   }
 ]
+
 
 
 
