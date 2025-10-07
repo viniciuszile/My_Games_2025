@@ -8,8 +8,8 @@ function Wishlist() {
   const [loading, setLoading] = useState(true);
   const [erro, setErro] = useState(null);
 
-  const [filtro, setFiltro] = useState("todos"); // todos, comprados, nao-comprados
-  const [ordenacao, setOrdenacao] = useState(null); // prioridade-asc, prioridade-desc, plataforma-asc, plataforma-desc
+  const [filtro, setFiltro] = useState("todos");
+  const [ordenacao, setOrdenacao] = useState(null);
   const [menuAberto, setMenuAberto] = useState(false);
   const menuRef = useRef(null);
 
@@ -72,14 +72,12 @@ function Wishlist() {
     return 0;
   }
 
-  // Filtragem
   let jogosFiltrados = jogos.filter((jogo) => {
     if (filtro === "comprados" && !isComprado(jogo.comprado)) return false;
     if (filtro === "nao-comprados" && isComprado(jogo.comprado)) return false;
     return true;
   });
 
-  // Ordenação
   if (ordenacao === "plataforma-asc") {
     jogosFiltrados = [...jogosFiltrados].sort(ordenarPorPlataforma);
   } else if (ordenacao === "plataforma-desc") {
@@ -105,12 +103,12 @@ function Wishlist() {
 
   return (
     <>
-      <button className="filtro-toggle" onClick={() => setMenuAberto(!menuAberto)}>
+      <button className="wish-filtro-toggle" onClick={() => setMenuAberto(!menuAberto)}>
         🎮 Filtros
       </button>
 
       {menuAberto && (
-        <div className="menu-flutuante" ref={menuRef}>
+        <div className="wish-menu-flutuante" ref={menuRef}>
           <h4>Filtrar por:</h4>
           <button className={filtro === "todos" ? "ativo" : ""} onClick={() => setFiltro("todos")}>
             Todos
@@ -141,21 +139,20 @@ function Wishlist() {
           </button>
           <button onClick={() => setOrdenacao(null)}>Limpar ordenação</button>
 
-          {/* Botão para voltar para Home */}
           <button onClick={() => navigate("/")}>🏠 Voltar para Home</button>
         </div>
       )}
 
-      <div className="container_card">
+      <div className="wish-container-card">
         {jogosFiltrados.map((jogo, index) => (
           <div
             key={index}
-            className={`card ${flipped[index] ? "flipped" : ""} ${
-              isComprado(jogo.comprado) ? "comprado" : "nao-comprado"
+            className={`wish-card ${flipped[index] ? "wish-flipped" : ""} ${
+              isComprado(jogo.comprado) ? "wish-comprado" : "wish-nao-comprado"
             }`}
             onClick={() => toggleFlip(index)}
           >
-            <div className="card-front">
+            <div className="wish-card-front">
               <img
                 src={jogo.link}
                 alt={`Capa do jogo`}
@@ -163,9 +160,9 @@ function Wishlist() {
                   e.currentTarget.src = "https://via.placeholder.com/250x350?text=Sem+Imagem";
                 }}
               />
-              <span className="plataforma">{jogo.plataforma}</span>
+              <span className="wish-plataforma">{jogo.plataforma}</span>
             </div>
-            <div className="card-back">
+            <div className="wish-card-back">
               <p>
                 <strong>Comprado:</strong> {jogo.comprado}
               </p>
