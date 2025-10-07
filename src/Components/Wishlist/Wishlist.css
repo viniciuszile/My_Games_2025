@@ -1,4 +1,4 @@
-.filtro-toggle {
+.wish-filtro-toggle {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -13,16 +13,15 @@
   z-index: 999;
 }
 
-.card.comprado {
+.wish-card.wish-comprado {
   border: 3px solid green;
 }
 
-.card.nao-comprado {
+.wish-card.wish-nao-comprado {
   border: 3px solid red;
 }
 
-
-.menu-flutuante {
+.wish-menu-flutuante {
   position: fixed;
   bottom: 80px;
   right: 20px;
@@ -34,16 +33,16 @@
   flex-direction: column;
   gap: 10px;
   box-shadow: 0 0 14px #000;
-  animation: slide-up 0.3s ease;
+  animation: wish-slide-up 0.3s ease;
 }
 
-.menu-flutuante h4 {
+.wish-menu-flutuante h4 {
   margin: 0;
   color: #fff;
   font-size: 1rem;
 }
 
-.menu-flutuante button {
+.wish-menu-flutuante button {
   background-color: #3a3a4d;
   color: #ccc;
   border: none;
@@ -54,17 +53,17 @@
   transition: all 0.2s;
 }
 
-.menu-flutuante button:hover {
+.wish-menu-flutuante button:hover {
   background-color: #4b4b5a;
   color: #fff;
 }
 
-.menu-flutuante button.ativo {
+.wish-menu-flutuante button.ativo {
   background-color: #8faaff;
   color: #121214;
 }
 
-@keyframes slide-up {
+@keyframes wish-slide-up {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -75,21 +74,20 @@
   }
 }
 
-
 /* Container que agrupa todos os cards */
-.container_card {
+.wish-container-card {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
   padding: 40px;
-  background-color: #121214; /* fundo dark geral */
+  background-color: #121214; 
   min-height: 100vh;
-  perspective: 1200px; /* perspectiva para efeito 3D */
+  perspective: 1200px;
 }
 
 /* Estilo base do card */
-.card {
+.wish-card {
   width: 280px;
   height: 410px;
   cursor: pointer;
@@ -102,8 +100,8 @@
 }
 
 /* Frente e verso do card */
-.card-front,
-.card-back {
+.wish-card-front,
+.wish-card-back {
   width: 100%;
   height: 100%;
   border-radius: 16px;
@@ -119,7 +117,7 @@
 }
 
 /* Frente do card */
-.card-front {
+.wish-card-front {
   background: linear-gradient(145deg, #1f1f23, #29292f);
   color: #fff;
   align-items: center;
@@ -128,16 +126,15 @@
   position: relative;
 }
 
-.card-front img {
+.wish-card-front img {
   width: 100%;
   height: 320px;
   object-fit: cover;
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Plataforma no bottom centralizado */
-.plataforma {
+.wish-plataforma {
   position: absolute;
   bottom: 12px;
   left: 50%;
@@ -157,7 +154,7 @@
 }
 
 /* Verso do card */
-.card-back {
+.wish-card-back {
   background: linear-gradient(145deg, #29292f, #1f1f23);
   color: #ddd;
   transform: rotateY(180deg);
@@ -170,27 +167,27 @@
   padding-top: 40px;
 }
 
-.card-back p {
+.wish-card-back p {
   margin-bottom: 12px;
 }
 
-.card-back strong {
+.wish-card-back strong {
   color: #8faaff;
 }
 
 /* Flip ativado */
-.card.flipped {
+.wish-card.wish-flipped {
   transform: rotateY(180deg);
 }
 
 /* Card com jogo concluído */
-.card.concluido {
+.wish-card.wish-concluido {
   border: 2px solid #00ff88;
   box-shadow: 0 0 12px #00ff88;
 }
 
 /* Card com jogo não concluído */
-.card.nao-concluido {
+.wish-card.wish-nao-concluido {
   border: 2px solid #ff5555;
   box-shadow: 0 0 12px #ff5555;
 }
@@ -199,58 +196,58 @@
 
 /* Tablets e pequenos laptops */
 @media (max-width: 768px) {
-  .container_card {
+  .wish-container-card {
     padding: 20px;
     gap: 16px;
   }
 
-  .card {
+  .wish-card {
     width: 220px;
     height: 300px;
   }
 
-  .card-front img {
+  .wish-card-front img {
     height: 180px;
     margin-bottom: 30px;
   }
 
-  .plataforma {
+  .wish-plataforma {
     font-size: 1rem;
     padding: 6px 12px;
   }
 
-  .card-back {
+  .wish-card-back {
     font-size: 0.85rem;
   }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-  .container_card {
+  .wish-container-card {
     padding: 15px;
     gap: 12px;
   }
 
-  .card {
+  .wish-card {
     width: 100%;
     max-width: 280px;
-    height: auto; /* para ajustar a altura automática */
+    height: auto;
     aspect-ratio: 280 / 380;
   }
 
-  .card-front img {
+  .wish-card-front img {
     height: auto;
     max-height: 290px;
     margin-bottom: 30px;
   }
 
-  .plataforma {
+  .wish-plataforma {
     font-size: 0.95rem;
     padding: 6px 12px;
     max-width: 80%;
   }
 
-  .card-back {
+  .wish-card-back {
     font-size: 0.85rem;
     padding-top: 20px;
   }
