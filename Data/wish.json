@@ -21,13 +21,6 @@
     "plataforma": "PS1"
   },
   {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Hades_II.png",
-    "nome": "Hades II",
-    "comprado": "sim",
-    "prioridade": "baixa",
-    "plataforma": "Steam"
-  },
-  {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Resident_Evil_Revelations_2.png",
     "nome": "Resident Evil: Revelations 2",
     "comprado": "sim",
@@ -56,13 +49,6 @@
     "plataforma": "Steam"
   },
   {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Blasphemous.png",
-    "nome": "Blasphemous",
-    "comprado": "sim",
-    "prioridade": "média",
-    "plataforma": "Steam"
-  },
-  {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Dark_Souls_II.png",
     "nome": "Dark Souls II",
     "comprado": "sim",
@@ -82,13 +68,6 @@
     "comprado": "sim",
     "prioridade": "baixa",
     "plataforma": "Steam"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Hotline_Miami_2_Wrong_Number.png",
-    "nome": "Hotline Miami 2: Wrong Number",
-    "comprado": "não",
-    "prioridade": "alta",
-    "plataforma": "Steam / Switch"
   },
   {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Dragon_Ball_Sparking_ZERO.png",
@@ -149,13 +128,6 @@
   {
     "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Pizza_Tower.png",
     "nome": "Pizza Tower",
-    "comprado": "não",
-    "prioridade": "baixa",
-    "plataforma": "Steam"
-  },
-  {
-    "link": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Resident_Evil_0.png",
-    "nome": "Resident Evil 0",
     "comprado": "não",
     "prioridade": "baixa",
     "plataforma": "Steam"
@@ -259,4 +231,5 @@
     "plataforma": "Steam"
   }
 ]
+
 
