@@ -1,7 +1,7 @@
 [
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/celeste.jpg",
     "nome": "Celeste",
+    "imagem": "/Fotos-main/celeste.jpg",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "03/01/2025",
     "termino": "08/01/2025",
@@ -12,8 +12,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/buckshot.jpg",
     "nome": "Buckshot Roulette",
+    "imagem": "/Fotos-main/buckshot.jpg",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "03/01/2025",
     "termino": "06/01/2025",
@@ -24,8 +24,8 @@
     "nota": "6"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/gta.jpg",
     "nome": "GTA Vice City",
+    "imagem": "/Fotos-main/gta.jpg",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "05/01/2025",
     "termino": "09/01/2025",
@@ -36,8 +36,8 @@
     "nota": "6"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/zelda.jpg",
     "nome": "Zelda Breath Of The Wild",
+    "imagem": "/Fotos-main/zelda.png",
     "plataforma": "Switch (Emulador)",
     "inicio": "07/01/2025",
     "termino": "23/01/2025",
@@ -48,8 +48,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/detroid.jpg",
     "nome": "Detroit: Become Human",
+    "imagem": "/Fotos-main/detroid.jpg",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "11/01/2025",
     "termino": "10/02/2025",
@@ -60,8 +60,8 @@
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/spiderman.jpg",
     "nome": "Spider-Man 2",
+    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/spiderman.jpg",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "02/02/2025",
     "termino": "07/02/2025",
@@ -72,20 +72,20 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/crash.jpg",
     "nome": "Crash Bandicoot 4",
+    "imagem": "/Fotos-main/crash.jpg",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "03/02/2025",
     "termino": "07/02/2025",
-    "situacao": "Concluído",
-    "Horas De Jogo": "10",
-    "dificuldade": "A",
+    "situacao": "Concluido",
+    "Horas De Jogo": "12",
+    "dificuldade": "S",
     "replay": "Não",
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/dante.jpg",
     "nome": "Dante's Inferno",
+    "imagem": "/Fotos-main/dante.jpg",
     "plataforma": "PS3 (Emulador)",
     "inicio": "11/02/2025",
     "termino": "13/02/2025",
@@ -96,8 +96,8 @@
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/cuphead.jpg",
     "nome": "Cuphead",
+    "imagem": "/Fotos-main/cuphead.jpg",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "29/01/2025",
     "termino": "31/01/2025",
@@ -108,8 +108,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hollow.jpg",
     "nome": "Hollow Knight",
+    "imagem": "/Fotos-main/hollow.png",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "19/01/2025",
     "termino": "19/01/2025",
@@ -120,8 +120,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/eldenring.jpg",
     "nome": "Elden Ring",
+    "imagem": "/Fotos-main/elden.png",
     "plataforma": "Steam (PC - Steam)",
     "inicio": "13/02/2025",
     "termino": "24/02/2025",
@@ -132,8 +132,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/needforspeed.jpg",
     "nome": "Need For Speed",
+    "imagem": "/Fotos-main/need.png",
     "plataforma": "PS2 (Emulador)",
     "inicio": "18/02/2025",
     "termino": "24/02/2025",
@@ -144,8 +144,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/ittakestwo.jpg",
     "nome": "It Takes Two",
+    "imagem": "/Fotos-main/ittakestwo.jpg",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "21/02/2025",
     "termino": "28/02/2025",
@@ -156,8 +156,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/godofwar.jpg",
     "nome": "God Of War ",
+    "imagem": "/Fotos-main/godofwar.jpg",
     "plataforma": "PS2 (Emulador)",
     "inicio": "27/02/2025",
     "termino": "01/03/2025",
@@ -168,8 +168,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/thewalkingdead.jpg",
     "nome": "The Walking Dead CAP 1",
+    "imagem": "/Fotos-main/thewalkingdead.jpg",
     "plataforma": "PC - Steam",
     "inicio": "17/03/2025",
     "termino": "24/03/2025",
@@ -180,8 +180,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hotlinemiami.jpg",
     "nome": "Hotline Miami",
+    "imagem": "/Fotos-main/hotlinemiami.jpg",
     "plataforma": "PC - Steam",
     "inicio": "16/03/2025",
     "termino": "22/03/2025",
@@ -192,8 +192,8 @@
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/residentevil4.jpg",
     "nome": "Resident Evil 4 Remake",
+    "imagem": "/Fotos-main/residentevil4.jpg",
     "plataforma": "PC - Steam",
     "inicio": "29/03/2025",
     "termino": "11/04/2025",
@@ -204,8 +204,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/cultoflamb.jpg",
     "nome": "Cult Of The Lamb",
+    "imagem": "/Fotos-main/cultoflamb.jpg",
     "plataforma": "PC - Steam",
     "inicio": "09/04/2025",
     "termino": "16/04/2025",
@@ -216,8 +216,8 @@
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/inscryption3.png",
     "nome": "Inscryption",
+    "imagem": "/Fotos-main/inscryption.jpg",
     "plataforma": "PC - Steam",
     "inicio": "17/03/2025",
     "termino": "13/04/2025",
@@ -228,8 +228,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/supermeatboy.jpg",
     "nome": "Super Meat Boy",
+    "imagem": "/Fotos-main/supermeatboy.jpg",
     "plataforma": "PC - Steam",
     "inicio": "02/01/2025",
     "termino": "08/07/2025",
@@ -240,8 +240,8 @@
     "nota": "8"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/blasphemous.jpg",
     "nome": "Blasphemous 2",
+    "imagem": "/Fotos-main/blasphemous.jpg",
     "plataforma": "PC - Steam",
     "inicio": "16/04/2025",
     "termino": "29/04/2025",
@@ -252,8 +252,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/cyberpunk.jpg",
     "nome": "Cyberpunk 2077",
+    "imagem": "/Fotos-main/cyberpunk.jpg",
     "plataforma": "PC - Steam",
     "inicio": "18/04/2025",
     "termino": "17/05/2025",
@@ -264,8 +264,8 @@
     "nota": "8.5"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/bioshock.png",
     "nome": "Bioshock Infinite",
+    "imagem": "/Fotos-main/bioshock.png",
     "plataforma": "PC - Steam",
     "inicio": "29/04/2025",
     "termino": "07/07/2025",
@@ -276,20 +276,18 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/darksouls.webp",
     "nome": "Darksouls 3",
+    "imagem": "/Fotos-main/darksouls.webp",
     "plataforma": "PC - Steam",
     "inicio": "07/05/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
+    "situacao": "Dropado",
+    "Horas De Jogo": "22",
+    "Motivo": "Formatei o PC e perdi o feeling pelo jogo",
+    "Plano de ação": "Voltar a jogar, antes vou zerar o 1 e o 2"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/animalwell.webp",
     "nome": "Animal Well",
+    "imagem": "/Fotos-main/animalwell.webp",
     "plataforma": "PC - Steam",
     "inicio": "13/05/2025",
     "termino": "22/05/2025",
@@ -300,8 +298,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/tlou.webp",
     "nome": "The Last Of Us 2",
+    "imagem": "/Fotos-main/tlou.webp",
     "plataforma": "PC - Steam(🏴‍☠️)",
     "inicio": "23/05/2025",
     "termino": "04/08/2025",
@@ -312,8 +310,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/mario.webp",
     "nome": "Mario Odyssey",
+    "imagem": "/Fotos-main/mario.webp",
     "plataforma": "Switch",
     "inicio": "11/06/2025",
     "termino": "27/06/2025",
@@ -324,20 +322,18 @@
     "nota": "8"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/zelda.webp",
     "nome": "Zelda Tears Of The Kingdom",
+    "imagem": "/Fotos-main/zelda.webp",
     "plataforma": "Switch",
     "inicio": "11/06/2025",
-    "termino": "-",
-    "situacao": "Não Concluído",
-    "Horas De Jogo": "Em Andamento",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
+    "situacao": "Dropado",
+    "Horas De Jogo": "10",
+    "Motivo": "Vendi o console e perdi meu save",
+    "Plano de ação": "Não pretendo voltar a jogar com emulador"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/mario%20kart.png",
     "nome": "Mario Kart 8",
+    "imagem": "/Fotos-main/mario%20kart.png",
     "plataforma": "Switch",
     "inicio": "07/06/2025",
     "termino": "15/06/2025",
@@ -348,8 +344,8 @@
     "replay": "Não"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/lies.webp",
     "nome": "Lies of P: Overture",
+    "imagem": "/Fotos-main/lies.webp",
     "plataforma": "PC - Steam 🏴‍☠️",
     "inicio": "20/06/2025",
     "termino": "28/06/2025",
@@ -360,8 +356,8 @@
     "replay": "Não"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/marioword.png",
     "nome": "Mario World",
+    "imagem": "/Fotos-main/marioword.png",
     "plataforma": "SNES",
     "inicio": "27/06/2025",
     "termino": "02/07/2025",
@@ -372,8 +368,8 @@
     "replay": "sim"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/joe.png",
     "nome": "Joe & Mac 2",
+    "imagem": "/Fotos-main/joe.png",
     "plataforma": "SNES",
     "inicio": "02/07/2025",
     "termino": "06/07/2025",
@@ -384,8 +380,8 @@
     "replay": "Não"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/aladin.png",
     "nome": "Aladdin",
+    "imagem": "/Fotos-main/aladin.png",
     "plataforma": "SNES",
     "inicio": "03/07/2025",
     "termino": "03/07/2025",
@@ -396,20 +392,20 @@
     "replay": "sim"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/reddead.jpg",
     "nome": "Red Dead 2",
+    "imagem": "/Fotos-main/reddead.png",
     "plataforma": "PC - Steam",
     "inicio": "25/03/2025",
     "termino": "05/07/2025",
     "situacao": "Concluído",
     "Horas De Jogo": "50",
     "dificuldade": "C",
-    "nota": "10",
-    "replay": "Não"
+    "replay": "Não",
+    "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/MULLET_MADJACK.png",
     "nome": "MULLET MADJACK",
+    "imagem": "/Fotos-main/MULLET_MADJACK.png",
     "plataforma": "PC - Gamepass",
     "inicio": "10/07/2025",
     "termino": "13/07/2025",
@@ -420,8 +416,8 @@
     "replay": "Não"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Clair_Obscur_Expedition_33.png",
     "nome": "Clair Obscur: Expedition 33",
+    "imagem": "/Fotos-main/Clair_Obscur_Expedition_33.png",
     "plataforma": "PC - Gamepass",
     "inicio": "12/07/2025",
     "termino": "25/07/2025",
@@ -432,8 +428,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/yoshi.png",
     "nome": "Super Mario World 2: Yoshi's Island",
+    "imagem": "/Fotos-main/yoshi.png",
     "plataforma": "SNES",
     "inicio": "14/07/2025",
     "termino": "25/07/2025",
@@ -444,8 +440,8 @@
     "nota": "7"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/ninja.png",
     "nome": "Ninja Gaiden 2 Black",
+    "imagem": "/Fotos-main/ninja.png",
     "plataforma": "PC - Gamepass",
     "inicio": "25/07/2025",
     "termino": "10/08/2025",
@@ -456,8 +452,8 @@
     "nota": "6"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/dead.png",
     "nome": "Dead Cells",
+    "imagem": "/Fotos-main/dead.png",
     "plataforma": "PC - Gamepass",
     "inicio": "26/07/2025",
     "termino": "15/08/2025",
@@ -468,8 +464,8 @@
     "nota": "8"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/plague.png",
     "nome": "A Plague Tale: Innocence",
+    "imagem": "/Fotos-main/plague.png",
     "plataforma": "PC - EPIC Games",
     "inicio": "11/08/2025",
     "termino": "12/08/2025",
@@ -480,20 +476,18 @@
     "nota": "9"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/re0.png",
-    "nome": "Resident Evil Zero: HD Remaster",
+    "nome": "Reisdent Evil 0",
+    "imagem": "/Fotos-main/re0.png",
     "plataforma": "PC - Steam",
     "inicio": "13/08/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
+    "situacao": "Dropado",
+    "Horas De Jogo": "13",
+    "Motivo": "Jogo muito chato e repetitivo",
+    "Plano de ação": "Não pretendo voltar a jogar"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/silk.png",
     "nome": "Hollow Knight: Silksong",
+    "imagem": "/Fotos-main/silk.png",
     "plataforma": "PC - Steam",
     "inicio": "04/09/2025",
     "termino": "12/09/2025",
@@ -504,8 +498,8 @@
     "nota": "10 - GOTY"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/human.png",
     "nome": "No i'm not a human",
+    "imagem": "/Fotos-main/human.png",
     "plataforma": "PC - Steam",
     "inicio": "21/09/2025",
     "termino": "24/09/2025",
@@ -516,20 +510,8 @@
     "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Blasphemous.png",
-    "nome": "Blasphemous",
-    "plataforma": "PC - Steam",
-    "inicio": "17/09/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hotline.png",
     "nome": "Hotline Miami 2: Wrong Number",
+    "imagem": "/Fotos-main/hotline.png",
     "plataforma": "PC - Steam",
     "inicio": "20/09/2025",
     "termino": "07/10/2025",
@@ -540,44 +522,20 @@
     "nota": "6"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/hades.png",
+    "imagem": "/Fotos-main/hades.png",
     "nome": "Hades 2",
     "plataforma": "PC - Steam",
     "inicio": "25/09/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
+    "termino": "15/10/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "55",
+    "dificuldade": "B",
     "replay": "Não",
-    "nota": "-"
+    "nota": "10"
   },
   {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Silent.png",
-    "nome": "Silent hill F",
-    "plataforma": "PC - Steam(🏴‍☠️)",
-    "inicio": "29/09/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/Ghost.png",
-    "nome": "Ghost of Tsushima",
-    "plataforma": "PC - Steam(🏴‍☠️)",
-    "inicio": "06/10/2025",
-    "termino": "-",
-    "situacao": "Em andamento",
-    "Horas De Jogo": "-",
-    "dificuldade": "-",
-    "replay": "Não",
-    "nota": "-"
-  },
-  {
-    "imagem": "https://raw.githubusercontent.com/viniciuszile/Fotos/refs/heads/main/death.png",
     "nome": "Death Stranding",
+    "imagem": "/Fotos-main/death.png",
     "plataforma": "PC - Epic Games",
     "inicio": "16/10/2025",
     "termino": "-",
@@ -586,26 +544,101 @@
     "dificuldade": "-",
     "replay": "Não",
     "nota": "-"
+  },
+  {
+    "nome": "Nine Sols",
+    "imagem": "/Fotos-main/nine.png",
+    "plataforma": "PC - Steam",
+    "inicio": "28/10/2025",
+    "termino": "-",
+    "situacao": "Em andamento",
+    "Horas De Jogo": "-",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
+  },
+  {
+    "nome": "God of war ",
+    "imagem": "/Fotos-main/gow.png",
+    "plataforma": "PC - Steam",
+    "inicio": "29/10/2025",
+    "termino": "11/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "15",
+    "dificuldade": "A",
+    "replay": "Sim",
+    "nota": "9"
+  },
+  {
+    "nome": "GTA V",
+    "imagem": "/Fotos-main/gtav.png",
+    "plataforma": "PC - Epic Games",
+    "inicio": "06/11/2025",
+    "termino": "14/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "45",
+    "dificuldade": "C",
+    "replay": "Sim",
+    "nota": "10"
+  },
+  {
+    "nome": "Gato Roboto",
+    "imagem": "/Fotos-main/gato.webp",
+    "plataforma": "PC - Steam",
+    "inicio": "13/11/2025",
+    "termino": "15/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "3",
+    "dificuldade": "D",
+    "replay": "Não",
+    "nota": "7"
+  },
+  {
+    "nome": "Super Bomberman 1",
+    "imagem": "/Fotos-main/bomberman1.webp",
+    "plataforma": "SNES ",
+    "inicio": "16/11/2025",
+    "termino": "16/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "2",
+    "dificuldade": "C",
+    "replay": "Não",
+    "nota": "7"
+  },
+  {
+    "nome": "Super Bomberman 2",
+    "imagem": "/Fotos-main/bomberman2.png",
+    "plataforma": "SNES",
+    "inicio": "17/11/2025",
+    "termino": "17/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "3",
+    "dificuldade": "B",
+    "replay": "Não",
+    "nota": "8"
+  },
+  {
+    "nome": "Super Bomberman 4",
+    "imagem": "/Fotos-main/Super_bomberman_4.png",
+    "plataforma": "SNES",
+    "inicio": "20/11/2025",
+    "termino": "20/11/2025",
+    "situacao": "Concluido",
+    "Horas De Jogo": "2",
+    "dificuldade": "D",
+    "replay": "Não",
+    "nota": "7"
+  },
+  {
+    "nome": "Dark Souls: Remastered\n",
+    "imagem": "/Fotos-main/Dark_Souls_I1png.webp",
+    "plataforma": " PC - Steam",
+    "inicio": "21/11/2025",
+    "termino": "-",
+    "situacao": "-",
+    "Horas De Jogo": "-",
+    "dificuldade": "-",
+    "replay": "Não",
+    "nota": "-"
   }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
